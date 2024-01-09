@@ -165,7 +165,119 @@ main{
 	color:#F00 ;
 }
 
+.bestoffer{
+	margin: 40px 0px;
+	display: flex;
+	align-items: center;
+}
+.bestoffer .left{
+	width: 33.33%;
+	padding-right: 20px;
+}
+.bestoffer .left h4{
+	font-size: 24px;
+	font-family: 'Inter', sans-serif;
+	color: #F00 ;
+	font-weight:500 ;
+}
+.bestoffer .left h2{
+		font-size: 40px;
+	font-family: Merriweather;
+	color:#070211 ;
+	font-weight:900 ;
+}
+.bestoffer .left p{
+		font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	color: rgba(7, 2, 17, 0.60);
+}
+.bestoffer .middle{
+	width: 33.33%;
+	padding: 0px 20px;
+}
+.bestoffer .middle img{
+    border: 8px solid #f00;
+    padding: 15px;
+    border-radius: 50%;
+}
+.bestoffer .right{
+	width: 33.33%;
+	padding:0px 20px ;
+}
+.bestoffer .right h2{
+	font-size: 40px;
+	font-family: Merriweather;
+	color:#f00 ;
+	font-weight:900 ;
+}
+.bestoffer .right p{
+		font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	color: rgba(7, 2, 17, 0.60);
+}
 
+.functional{
+	margin: 40px 0px;
+}
+.functional .content{
+	text-align: center;
+	width: 800px;
+}
+.functional .content h4{
+	font-size: 20px;
+	font-family: 'Inter', sans-serif;
+	color: #070211;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.functional .content h1{
+	font-size: 40px;
+	font-family: Merriweather;
+	color:#f00 ;
+	font-weight:900 ;
+	margin-bottom: 10px;
+}
+.functional .content h1 span{
+	color: #070211;
+}
+
+.functional .content p{
+	font-size: 18px;
+	font-family: 'Inter', sans-serif;
+	color: rgba(7, 2, 17, 0.60);
+	margin-bottom: 10px;
+}
+.functional .image{}
+.functional .image .inner .image1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.functional .image .inner .image2{
+	position: absolute;
+	top: 9%;
+	left: 54%;
+	z-index: 1;
+}
+.functional .image .inner .image3{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.functional .image .inner .image4{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.functional .image .inner{
+	width: 100%;
+	position: relative;
+	height: 600px;
+}
+.functional .image .inner img{
+	max-width: 100%;
+}
 .portfolio{
     margin: 40px 0px;
 }
@@ -209,6 +321,10 @@ main{
 	display: block;
 	position: relative;
 
+}
+.portfolio .gallery .card a img{
+	border: 1px solid #f00;
+	border-radius: 16px;
 }
 .portfolio .gallery .card a::before{
 	position: absolute;
